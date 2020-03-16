@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task List Ania</title>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+	<style>
+		body {
+	color: darkgreen;
+	font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+}
+button, input, a {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+li {
+	font-size: 18px;
+}
+input, button {
+	font-size: 18px;
+}
+.remove {
+    margin-left: 30px;
+
+}
+li {
+    text-align: left;
+    width: 500px;
+    margin: auto;
+}
+	</style>
+</head>
+<body>
+	<h1>Add a new task</h1>
+<form id="form">
+	<input id="newtask" type="text" placeholder="new task">
+	<input type="submit" value="Add a task">
+</form>
+<h1>Tasks list</h1>
+<div>
+	<ol id="tasklist">
+		
+	</ol>
+	<button id="clear">Remove All Tasks</button>
+</div>
+<h1>Find tasks</h1>
+<div>
+	<input type="text" name="find" id="find" placeholder="write task to be found">
+</div>
+
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

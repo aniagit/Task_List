@@ -1,0 +1,13 @@
+body {
+    color: darkgreen;
+    text-align: center;
+}
+.remove {
+    margin-left: 30px;
+
+}
+li {
+    text-align: left;
+    width: 100px;
+    margin: auto;
+}
